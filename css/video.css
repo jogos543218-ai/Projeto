@@ -202,21 +202,6 @@ background-color: #007bff; /* Primeira cor que o navegador lê */
     /* Espaçamento acima e abaixo (opcional) */
     padding: 5px 0;
 
-/* Define o tamanho padrão (ex: 200px ou largura automática) */
-    width: auto;
-    /* Centraliza o botão na tela maior se necessário (ajuste 'display' conforme o container) */
-    display: inline-block; 
-    margin-left: 10px; /* Exemplo de margem para separar de outros elementos */
-    margin-right: 10px;
-    /* Outros estilos: padding, cor, borda, etc. */
-}
-
-
-/* --- MEDIA QUERY para TELAS PEQUENAS (Celulares - 600px ou menos) --- */
-/* Esta regra só será aplicada quando a largura da tela for de 600px ou menor */
-@media screen and (max-width: 600px) {
-    
-    .btn-principal {
         /* No celular, o botão ocupa a largura inteira */
         width: 100%; 
         /* O 'display: block' garante que ele ocupe a linha toda e respeite a largura 100% */
@@ -228,3 +213,4 @@ background-color: #007bff; /* Primeira cor que o navegador lê */
         margin-top: 15px; 
   
 }
+
